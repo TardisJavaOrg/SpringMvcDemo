@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <form method="post" action="/login">
+        <label for="email">
+            {{ _('email') }}
+        </label>
+        <input name="email" id="email">
+        <label for="password">
+            Password：
+        </label>
+        <input name="password" id="password">
+        <input type="submit" value="提交">
+    </form>
+    <a href="/locale/en">英文</a>
+    <a href="/locale/zh_CN">中文</a>
+</body>
+</html>
